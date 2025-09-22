@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>margin </title>
+  <style>
+
+div{
+	border: 2px solid #000000;
+	}
+ 
+.exterior{
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	}
+	
+#interior{
+	background-color: blue;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 100px;
+	height: 100px;
+	z-index: 2;
+	opacity: 0.5;
+	}
+
+.interior2{
+	background-color: green;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 100px;
+	height: 100px;
+	z-index: 4;
+	}
+
+ 
+ 
+  </style>
+  
+</head> 
+<body> 
+
+<div class="exterior">
+	<div id="interior"></div>
+</div>
+
+<div class="interior2"></div>
+
+
+
+</body>
+</html>

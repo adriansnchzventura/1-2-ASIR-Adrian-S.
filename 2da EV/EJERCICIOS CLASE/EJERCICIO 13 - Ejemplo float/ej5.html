@@ -1,0 +1,54 @@
+<!DOCTY
++E
+t
++ml>
+<html>
+<head>
+<title>Propiedad clear.</title>
+<link rel="stylesheet" href="css.css">
+
+<style>
+#principal{
+	background-color: grey;
+	}
+
+</style>
+
+</head>
+<body>
+<h1>Posicionamiento flotante y cajas normales: Propiedad "clear"</h1>
+<p>En este ejemplo se muestran varias cajas flotantes (color azul claro) y varias
+normales (color lima): Las cajas normales se colocarán debajo o no de las flotantes, 
+según se indique en la propiedad "clear".</p><br/>
+<div id="principal">
+<div id="caja1">
+<p>Caja 1. Posicionamiento flotante. Propiedad: "float: left"</p>
+</div>
+<div id="caja2">
+<p>Caja 2. Posicionamiento flotante. Propiedad: "float: right"</p>
+</div>
+<div id="caja3">
+<p>Caja 3. Posicionamiento normal. Sin propiedad clear. La caja en sí ignora
+el espacio ocupado por las cajas flotantes, pero su contenido respeta el espacio
+de éstas, mostrándose en el espacio libre que estas dejan.</p>
+</div>
+<div id="caja4">
+<p>Caja 4. Posicionamiento normal. con propiedad "clear: left". Esta caja se ha colocado
+debajo de la caja flotante de la izquierda, pero no de la caja flotante de la derecha, la cual
+esta solapada en parte con esta caja. </p>
+</div>
+<div id="caja5">
+<p>Caja 5. Posicionamiento flotante. Propiedad: "float: right"</p>
+</div>
+
+<div id="caja6">
+<p>Caja 6. Posicionamiento flotante. Propiedad: "float: left"</p>
+</div>
+<div id="caja7">
+<p>Caja 7. Posicionamiento normal. con propiedad "clear: both". Esta caja se ha colocado
+debajo de cualquier caja flotante, tanto a su izquierda como a su derecha.</p>
+</div>
+
+</div>
+</body>
+</html>
