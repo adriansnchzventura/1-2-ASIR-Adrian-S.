@@ -1,0 +1,15 @@
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+.imagen{
+	display: flex;
+	min-width: 200px;
+	max-width: 220px;
+	margin: 10px;
+}

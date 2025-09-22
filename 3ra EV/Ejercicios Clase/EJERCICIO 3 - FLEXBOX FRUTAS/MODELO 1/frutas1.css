@@ -1,0 +1,22 @@
+article{
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.ficha{
+	border: 2px solid black;
+	margin: 15px;
+	padding: 3px;
+	flex-basis:20% ;
+	display: inline-flex;
+}
+
+.p1{
+	margin-top: 10px;
+	font-size: 75px;
+}
+
+.p3{
+	text-align: justify;
+	font-size: 1.5em;
+}

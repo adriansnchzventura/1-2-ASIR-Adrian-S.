@@ -1,0 +1,15 @@
+.menu{
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+}
+
+.boton{
+	color: white;
+	background-color: #084227; 
+	opacity: 0.8;
+	padding: 6px;
+	margin: 2px;
+	border-radius: 15px;
+	text-decoration: none;
+}
